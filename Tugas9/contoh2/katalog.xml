@@ -1,0 +1,32 @@
+<katalog>
+    <buku category="WEB">
+        <judul bahasa="en">Learning XML</judul>
+        <pengarang>Erik T.Ray</pengarang>
+        <tahun>2003</tahun>
+        <harga>100.000</harga>
+    </buku>
+    <buku category="Programming">
+        <judul bahasa="en">Pemrograman PHP</judul>
+        <pengarang>Saeful S.</pengarang>
+        <tahun>2005</tahun>
+        <harga>50.000</harga>
+    </buku>
+    <buku category="Programming">
+        <judul bahasa="en">Pemrograman Java</judul>
+        <pengarang>Saeful S.</pengarang>
+        <tahun>2004</tahun>
+        <harga>60.000</harga>
+    </buku>
+    <buku category="Programming">
+        <judul bahasa="en">Pemrograman PHP</judul>
+        <pengarang>Saeful S.</pengarang>
+        <tahun>2009</tahun>
+        <harga>70.000</harga>
+    </buku>
+    <buku category="Programming">
+        <judul bahasa="en">Pemrograman PHP</judul>
+        <pengarang>Saeful S.</pengarang>
+        <tahun>2016</tahun>
+        <harga>80.000</harga>
+    </buku>
+</katalog>

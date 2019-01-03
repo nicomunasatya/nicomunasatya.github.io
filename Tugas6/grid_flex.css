@@ -1,0 +1,232 @@
+.container{
+    display: grid;
+    grid-gap: 1;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: auto;
+}
+.menu_mid1>.your_needs a{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 16px 8px;
+    color: white;
+    text-decoration: none;
+}
+.content1_mid1 a{
+    display: flex;
+    flex-direction: row;
+    padding:8px;
+    text-decoration: none;
+    color: white;
+}
+.menu_samping{
+    position: fixed;
+    height: 700px;
+    right: 0;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+}
+.menu_mid2{
+    overflow: hidden;
+}
+.menu_mid2 a{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    padding: 16px 8px;
+    text-decoration: none;
+}
+.umkm:hover{
+    background-color: #ee6368;
+}
+.home_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.home_mid{
+    grid-column: 4/18;
+    background-color:white;
+    padding: 10px;
+}
+.home_right{
+    grid-column: 18/-1;
+    background-color:white;
+}
+
+.menu_left{
+    grid-column: 1/4;
+    background-color: #d4393e;
+}
+.menu_mid1{
+    grid-column: 4/8;
+    background-color:#d4393e;
+}
+.menu_mid2{
+    grid-column: 8/18;
+    background-color:#d4393e;
+}
+.menu_right{
+    grid-column: 18/-1;
+    background-color:#d4393e;
+}
+
+.content1_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.content1_mid1{
+    grid-column: 4/8;
+    background-color: #ee6368;
+}
+.content1_mid2{
+    grid-column: 8/18;
+    background-color: white;
+}
+.content1_right{
+    grid-column: 18/-1;
+    background-color:white;
+}
+
+.content2_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.content2_mid{
+    margin: 10px 0px;
+    grid-column: 4/18;
+}
+.content2_right{
+    grid-column: 18/-1;
+    background-color: white;
+}
+
+.content3_left{
+    grid-column: 1/4;
+    background-color: rgba(255, 255, 255, 0.062);
+}
+.content3_mid{
+    margin: 10px;
+    grid-column: 4/18;
+}
+.content3_right{
+    grid-column: 18/-1;
+    background-color: rgba(255, 255, 255, 0.932);
+}
+
+.content4_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.content4_mid{
+    grid-column: 4/18;
+}
+.content4_right{
+    grid-column: 18/-1;
+    background-color: white;
+}
+
+.content5_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.content5_mid1{
+    grid-column: 4/13;
+    background-color: white;
+}
+.content5_mid2{
+    grid-column: 13/18;
+    background-color: white;
+}
+.content5_right{
+    grid-column: 18/-1;
+    background-color: white;
+}
+
+.content6_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.content6_mid{
+    grid-column: 4/18;
+    background-color: white;
+}
+.content6_right{
+    grid-column: 18/-1;
+    background-color: white;
+}
+
+.footer1_left{
+    grid-column: 1/4;
+    background-color: rgb(83, 80, 80);
+    border-top: 8px solid #d4393e;
+}
+.footer1_mid1{
+    grid-column: 4/10;
+    background-color: rgb(83, 80, 80);
+    border-top: 8px solid #d4393e;
+    color: white;
+}
+.footer1_mid2{
+    grid-column: 10/18;
+    background-color: rgb(83, 80, 80);
+    border-top: 8px solid #d4393e;
+    color: white;
+}
+.footer1_right{
+    grid-column: 18/-1;
+    background-color: rgb(83, 80, 80);
+    border-top: 8px solid #d4393e;
+}
+
+.footer2_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.footer2_mid1{
+    grid-column: 4/8;
+    background-color: white;
+    margin: 30px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer2_mid2{
+    grid-column: 8/9;
+    background-color: white;
+    margin: 30px 0px;
+}
+.footer2_mid3{
+    grid-column: 9/18;
+    background-color: white;
+    margin: 30px 0px;
+}
+.footer2_right{
+    grid-column: 18/-1;
+    background-color: white;
+}
+
+.footer3_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.footer3_mid{
+    grid-column: 4/18;
+    background-color: white;
+}
+.footer3_right{
+    grid-column: 18/-1;
+    background-color: white;
+}
+.footer4_left{
+    grid-column: 1/4;
+    background-color: white;
+}
+.footer4_mid{
+    grid-column: 4/18;
+    background-color: white;
+}
+.footer4_right{
+    grid-column: 18/-1;
+    background-color: white;
+}

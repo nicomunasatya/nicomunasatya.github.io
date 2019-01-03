@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>FORM</title>
+		<link rel="stylesheet" type="text/css" href="css/css_form.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body class="bodi">
+		<h3>FORM PENDAFTARAN ADMIN</h3>		
+		<form action="register.php" method="GET">
+		<div>
+			&nbsp;&nbsp;Nama/Username
+			<input type="text" name="nama" placeholder="Masukan nama">
+			&nbsp;&nbsp;Password
+			<input type="password" name="password" placeholder="Masukan Password"/></br>
+			&nbsp;&nbsp;Jenis Kelamin </br>
+			<input type="radio" name="jenis_kelamin" value="laki-laki" checked />Laki-Laki
+			<input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</br>
+			&nbsp;&nbsp;Keahlian</br>
+			<input type="checkbox" name="keahlian" value="menari" checked />Menari
+			<input type="checkbox" name="keahlian" value="memanah" />Memanah
+			<input type="checkbox" name="keahlian" value="berenang" />Berenang</br>
+			&nbsp;&nbsp;Tempat lahir</br>
+			<select name="tempat lahir">
+			<option value="jakarta">Jakarta</option>
+			<option value="bandung">Bandung</option>
+			<option value="kudus">Kudus</option>
+			</select>
+			</br>
+			&nbsp;&nbsp;Deskripsi</br>
+			<textarea name="deskripsi" rows="2" col="10" placeholder="Masukan Deskripsi"></textarea>
+			</br>
+			<input type="submit" value ="Enter"><input type="reset" value ="Reset">
+		</div>
+		</form>
+	<body>
+</html>

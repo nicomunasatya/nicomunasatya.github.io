@@ -1,0 +1,18 @@
+
+		/*CSS untuk body register.php*/
+		body.bodi{
+			background-color:#1aa3ff;
+			font-size:20;
+			font-family:times new roman;
+		}
+		/*CSS untuk header 3 yang berisi judul Data Pendaftar*/
+		h3{
+			border:2px solid white;
+			padding:20px;
+		}
+		/*CSS untuk paragraf yang berisi Data Pendaftar*/
+		p{
+			border:2px solid white;
+			width:50%;
+			height:40%;
+		}

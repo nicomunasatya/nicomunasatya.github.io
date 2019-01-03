@@ -1,0 +1,21 @@
+.container > div{
+	display: flex;
+	font-size: 2em;
+    color:whitesmoke;
+}
+html,body{
+    background-color:#000066;	
+    margin: 10px;
+}
+.container>div:nth-child(1n){
+    background-color:#1aa3ff;
+}
+.container>div:nth-child(2n){
+    background-color: royalblue;
+}
+.container>div:nth-child(3n){
+    background-color: dodgerblue;
+}
+.container>div:nth-child(4n){
+    background-color:royalblue;
+}
