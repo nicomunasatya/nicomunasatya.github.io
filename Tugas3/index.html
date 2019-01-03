@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/css_index.css">
+	</head>
+	<body class="bodi">
+		<table class="tabel">
+			<tr width="100%" height="10%" bgcolor="#000066">
+				<td colspan="2"><h3 id="tanggal" style="color:white;" align="right"></h3></td>
+			</tr>
+			<tr align="top" valign="top">
+				<td width="12.5%" height="70%" align="left" valign="top" bgcolor="#f1f1f1">
+					<ul style="list-style-type:square;">
+						<li><h2><a class="active" href="home.html" target="target"><font color="black">HOME</font></a></h2></li>
+						<li><h2><a href="deskripsi.html" target="target"><font color="black">Deskripsi</font></a></h2></li>
+						<li><h2><a href="biodata.html" target="target"><font color="black">Biodata</font></a></h2></li>
+						<li><h2><a href="krs.html" target="target"><font color="black">Krs</font></a></h2></li>
+						<li><h2><a href="form.html" target="target"><font color="black">Form</font></a></h2></li>
+					</ul>
+				</td>
+				<td class="frame"><iframe class="iframe" src="home.html" height="100%" width="100%" name="target"></iframe></td>
+			</tr>	
+			<tr width="100%" height="5%" bgcolor="#000066">
+				<td colspan="2"><h3><font color="white"><marquee>copyright @Nico Munasatya</marquee></font></h3></td>
+			</tr>
+		</table>
+		<script>
+			var d = new Date();
+			document.getElementById("tanggal").innerHTML = d;
+		</script>
+	</body>
+</html>

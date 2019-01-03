@@ -1,0 +1,54 @@
+<html>
+	<head>
+		/*CSS untuk krs.html*/
+		<title>Css Krs</title>
+	<head>
+	<style>
+		/*CSS untuk paragraf yang berisi judul KRS*/
+		p.satu{
+			border:2px solid #0000e6;
+			padding:20px;
+			text-align:center;
+			font-family:times new roman;
+			font-size:20;
+			color:#e6ecff;
+		}
+		/*CSS untuk paragraf yang berisi judul KRS*/
+		.satu{
+			border:2px solid white;
+			padding:25px;
+			text-align:center;
+			font-size:30;
+			color:white;
+			background-color:#0000e6;
+			border-radius:5px;
+		}
+		/*CSS untuk body di krs.html*/
+		.bodi{
+			background-color:#1aa3ff;
+			font-family:verdana;
+		}
+		/*CSS untuk tabel*/
+		.tabel{
+			border:2px solid blue;
+			align:center;
+			height:400px;
+			width:100%;
+			color:white;
+			border-radius:5px;
+		}
+		/*CSS untuk baris ditabel*/
+		td{
+			font-size-adjust:center;
+			border:2px solid #ccccff;
+			text-align:center;
+			color:white;
+		}
+		/*CSS untuk baris utama ditabel*/
+		th{
+			border:2px solid #ccccff;
+			text-align:center;
+			color:white;
+		}
+	</style>
+</html>

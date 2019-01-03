@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>FORM</title>
+	</head>
+	<body>
+	<style>
+		body{
+			background-color:#1aa3ff;
+		}
+		h3{
+			border:2px solid black;
+			text-align:center;
+			font-size:30;
+			padding:20px;
+		}
+		.tabel{
+			border:2px solid black;
+			font-size:20;
+		}
+	</style>
+	<center>
+		<h3>FORM PENDAFTARAN ADMIN</h3>		
+		<form action="register.php" method="GET">
+			<table class="tabel">
+				<tr>
+					<td>Nama</td>
+					<td>:</td>
+					<td><input type="text" name="nama"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>:</td>
+					<td><input type="password" name="password"/></td>
+				</tr>
+				<tr>
+					<td>Jenis Kelamin </td>
+					<td>:</td>
+					<td>
+						<input type="radio" name="jenis_kelamin" value="laki-laki" checked />Laki-Laki
+						<input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+					</td>
+					
+				</tr>
+				<tr>
+					<td>Keahlian</td>
+					<td>:</td>
+					<td>
+						<input type="checkbox" name="keahlian" value="menari" checked />Menari
+						<input type="checkbox" name="keahlian" value="memanah" />memanah
+						<input type="checkbox" name="keahlian" value="berenang" />berenang
+					</td>
+				</tr>
+				<tr>
+					<td>Tempat lahir</td>
+					<td>:</td>
+					<td>
+						<select name="tempat lahir">
+							<option value="jakarta">Jakarta</option>
+							<option value="bandung">Bandung</option>
+							<option value="kudus">Kudus</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Deskripsi</td>
+					<td>:</td>
+					<td><textarea name="deskripsi" rows="3" col="10"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<input type="submit" value ="Enter">
+						<input type="reset" value ="reset">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</center>
+	<body>
+</html>

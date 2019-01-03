@@ -1,0 +1,23 @@
+<html>
+	/*CSS untuk biodata.html*/
+	<style>
+		/*CSS bagian bodi*/
+		body.bodi{
+			background-color:#1aa3ff;
+			color:white;
+		}
+		/*CSS bagian bodi*/
+		.bodi{
+			background-color:#1aa3ff;
+			color:white;
+		}
+		/*CSS bagian header 1*/
+		.style{
+			background-color:#000066;
+			border:2px solid #f2f2f2;
+			border-radius:10px;
+			color:white;
+			padding:20px;
+		}
+	</style>
+</html>

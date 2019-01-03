@@ -1,0 +1,10 @@
+
+		/*CSS untuk body di home.html*/
+		.bodi{
+			background-color:#1aa3ff;
+		}
+		/*CSS untuk header 1 di home.html yang berisi Selamat datang*/
+		h1{
+			text-align:center;
+			color:white;
+		}

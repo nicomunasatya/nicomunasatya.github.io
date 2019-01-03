@@ -1,0 +1,24 @@
+
+		/*CSS bagian body*/
+		.bodi{
+			background-color:#1aa3ff;
+			color:white;
+		}
+		/*CSS bagian header 1*/
+		.hsatu{
+			border:2px solid #f2f2f2;
+			padding:20px;
+			border-radius:5px;
+			background-color:#000066;
+			text-align:center;
+		}
+		/*CSS bagian tabel*/
+		.tabel{
+			border:0;
+			border-collapse:collapse;
+		}
+		/*CSS bagian text yang ada ditabel*/
+		.text{
+			font-size:25;
+			color:white;
+		}
