@@ -1,0 +1,22 @@
+a{
+    display: block;
+    text-decoration: none;
+    color: silver;
+}
+a:hover{
+    text-decoration: underline;
+    color: silver;
+}
+.more{
+    float: right;
+    color: #d4393e;
+}
+.more:hover{
+    float: right;
+    color: #d4393e;
+    text-decoration:underline;
+}
+p{
+    color: silver;
+    font-size: 14px;
+}

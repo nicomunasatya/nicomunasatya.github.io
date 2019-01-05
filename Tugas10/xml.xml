@@ -1,0 +1,38 @@
+<katalog>
+    <bank category="WEB">
+        <judul bahasa="en">Currency</judul>
+        <buy>USD</buy>
+        <harga1>14,505.00</harga1>
+        <harga2>14,820.00</harga2>
+    </bank>
+    <bank category="WEB">
+        <judul bahasa="en">Currency</judul>
+        <buy>AUD</buy>
+        <harga1>10,491.00</harga1>
+        <harga2>10,804.00</harga2> 
+    </bank>
+    <bank category="WEB">
+        <judul bahasa="en">Currency</judul>
+        <buy>GBP</buy>
+        <harga1>18,966.00</harga1>
+        <harga2>19,279.00</harga2> 
+    </bank>
+    <bank category="WEB">
+        <judul bahasa="en">Currency</judul>
+        <buy>SGD</buy>
+        <harga1>10,471.00</harga1>
+        <harga2>10,777.00</harga2> 
+    </bank>
+    <bank category="WEB">
+        <judul bahasa="en">Currency</judul>
+        <buy>JPY</buy>
+        <harga1>125.51</harga1>
+        <harga2>132.28</harga2> 
+    </bank>
+    <bank category="WEB">
+        <judul bahasa="en">Currency</judul>
+        <buy>SAR</buy>
+        <harga1>3,723.00</harga1>
+        <harga2>3,991.00</harga2> 
+    </bank>
+</katalog>

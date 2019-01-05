@@ -1,0 +1,22 @@
+.bank{
+    padding: 10px;
+    background-color: #d4393e;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+.bank:hover{
+    padding: 10px;
+    background-color: #d4393e;
+    text-align: center;
+    display: inline-block;
+    color:antiquewhite;
+    border-radius: 5px;
+}
+table,th,td {
+    border-collapse: collapse;
+  }
+  th,td {
+    padding: 5px;
+  }

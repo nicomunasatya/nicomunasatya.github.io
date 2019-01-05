@@ -1,0 +1,9 @@
+{
+    "name":"Nico Munasatya",
+    "age":31,
+    "atm":[
+        { "bank":"BCA", "name":"nico munasatya" },
+        { "animal":"BRI", "name":"nico munasatya" },
+        { "animal":"BNI", "name":"nico munasatya" }
+    ]
+}
